@@ -1,0 +1,148 @@
+
+/* Navbar */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px 3%;
+    }
+
+    .menu {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: rgba(18, 146, 131, 0.9);
+        width: 100%;
+        text-align: center;
+        display: none;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .menu-list {
+        flex-direction: column;
+    }
+
+    .menu-list .menu-list-items {
+        padding: 1rem 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+}
+
+
+/* Heroic Section */
+
+@media screen and (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 5% 3%;
+    }
+
+    .hero .intro {
+        width: 80%;
+        text-align: center;
+    }
+
+    .hero .image .photo {
+        height: 300px;
+        width: 300px;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 10% 3%;
+    }
+
+    .hero .intro {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .intro-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero .image .photo {
+        height: 250px;
+        width: 250px;
+        margin-top: 15px;
+    }
+
+    .hero .intro .social_media {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .hero .intro .social_media a {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+}
+
+/* About */
+
+@media screen and (max-width: 1024px) {
+    .about-me .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-me .about-content {
+        text-align: center;
+        max-width: 80%;
+    }
+
+    .about-me .about-image img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .about-me {
+        padding: 30px 15px;
+    }
+
+    .about-me .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-me .about-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-me .about-content {
+        max-width: 100%;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .social-icons a {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+}
